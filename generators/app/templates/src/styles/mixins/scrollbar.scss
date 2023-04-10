@@ -1,0 +1,21 @@
+@mixin changeScrollbarStyle($h: 6px, $w: 6px, $bg: #434b55) {
+  // 滚动条
+  ::-webkit-scrollbar {
+    width: $h;
+    height: $w;
+  }
+  // 滑块
+  ::-webkit-scrollbar-thumb {
+    background: $bg;
+    border-radius: 5px;
+  }
+  // 滑块轨道背景
+  ::-webkit-scrollbar-track {
+    background: #2a2e33;
+    border-radius: 5px;
+  }
+  // 滑轨两端交汇角
+  ::-webkit-scrollbar-corner {
+    display: none;
+  }
+}

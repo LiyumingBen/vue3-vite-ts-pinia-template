@@ -1,0 +1,28 @@
+/*
+ * @Author: LYM
+ * @Date: 2022-04-12 11:12:09
+ * @LastEditors: LYM
+ * @LastEditTime: 2022-06-16 15:24:03
+ * @Description: 公共样式表
+ */
+@use 'sass:math'; // 必须放在最顶部
+
+@import './mixins/clearfix.scss';
+@import './mixins/ellipsis.scss';
+@import './mixins/scrollbar.scss';
+
+// 默认设计稿的宽度
+$designW: 1920;
+// 默认设计稿的高度
+$designH: 1080;
+
+// px转化成vw函数
+@function vw($px) {
+  @return math.div($px, $designW) * 100vw;
+}
+// px转为vh的函数
+@function vh($px) {
+  @return math.div($px, $designH) * 100vh;
+}
+
+$font-color: red;
