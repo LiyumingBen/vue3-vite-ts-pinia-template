@@ -1,6 +1,6 @@
 {
   "name": "generator-vue-vite-ts-pinia-template",
-  "version": "0.0.0",
+  "version": "0.0.4",
   "description": "vue3-vite-ts-pinia-template模板",
   "homepage": "https://github.com/LiyumingBen",
   "author": {
@@ -17,6 +17,7 @@
     "yeoman-generator"
   ],
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.57.1",
     "coveralls": "^3.0.7",
     "eslint": "^8.38.0",
     "eslint-config-prettier": "^6.6.0",
@@ -80,5 +81,5 @@
     "type": "git",
     "url": "git@github.com:LiyumingBen/vue3-vite-ts-pinia-template.git"
   },
-  "private": true
+  "private": false
 }

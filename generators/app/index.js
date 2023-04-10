@@ -84,7 +84,6 @@ module.exports = class extends Generator {
       ".eslintignore",
       ".eslintrc-auto-import.json",
       ".eslintrc.cjs",
-      ".gitignore",
       ".prettierignore",
       "auto-imports.d.ts",
       "commitlint.config.js",
