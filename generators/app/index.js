@@ -8,13 +8,7 @@ const mkdirp = require("mkdirp");
 module.exports = class extends Generator {
   prompting() {
     // Have Yeoman greet the user.
-    this.log(
-      yosay(
-        `Welcome to the super-excellent ${chalk.red(
-          "generator-vue-vite-ts-pinia-template"
-        )} generator!`
-      )
-    );
+    this.log(yosay(`欢迎使用 ${chalk.red("vue3-vite-ts-pinia-template")}!`));
 
     const prompts = [
       {
