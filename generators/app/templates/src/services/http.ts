@@ -215,7 +215,6 @@ const http: Http = {
     })
   },
   download(url) {
-    console.log(url, 111222)
     const iframe = document.createElement('iframe')
     iframe.style.display = 'none'
     iframe.src = url
