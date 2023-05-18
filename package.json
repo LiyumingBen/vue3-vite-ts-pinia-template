@@ -1,12 +1,11 @@
 {
   "name": "generator-vue-vite-ts-pinia-template",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "vue3-vite-ts-pinia-template模板",
-  "homepage": "https://github.com/LiyumingBen",
+  "homepage": "",
   "author": {
     "name": "lym",
-    "email": "15527729736@163.com",
-    "url": "https://github.com/LiyumingBen"
+    "email": "15527729736@163.com"
   },
   "files": [
     "generators"
